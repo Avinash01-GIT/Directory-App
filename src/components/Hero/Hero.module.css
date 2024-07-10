@@ -1,0 +1,165 @@
+.mainContainer {
+  width: 90%;
+  height: 100vh;
+  margin: 1rem auto;
+}
+
+.tabsContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tabButtons {
+  height: 60px;
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  background-color: #222;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  min-height: 44px;
+  min-width: 200px;
+  outline: none;
+  padding: 9px 20px 8px;
+  text-align: center;
+  width: 100px;
+}
+
+.active {
+  color: tomato;
+}
+
+.tabContent {
+  /* border: 1px solid black; */
+  height: 100%;
+}
+
+.tabOne {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.head {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.head span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.formContainer {
+  height: 100%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 89vw;
+  margin: 60px auto;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.formGroup {
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.formGroup label {
+  font-weight: bold;
+  width: 130px;
+}
+
+.formGroup input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.formGroup button {
+  height: 35px;
+  padding: 0 15px;
+  width: 100px;
+  background-color: black;
+  color: tomato;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.tabTwo {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.searchContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.searchGroup {
+  display: flex;
+}
+
+.searchGroup input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.searchGroup button {
+  height: 35px;
+  padding: 0 15px;
+  width: 100px;
+  background-color: black;
+  color: tomato;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+.deleteButton {
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.retrieveContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

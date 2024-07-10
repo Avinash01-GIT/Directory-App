@@ -1,0 +1,12 @@
+@font-face {
+  font-family: ultra;
+  src: url(/planet-of-the-apes.ttf);
+}
+
+.ultra {
+  font-family: ultra;
+  text-align: center;
+  font-size: 32px;
+  background-color: tomato;
+  padding: 1rem;
+}

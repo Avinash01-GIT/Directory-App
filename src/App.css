@@ -1,0 +1,8 @@
+@font-face {
+  font-family: ultra;
+  src: url(/public/planet-of-the-apes.ttf);
+}
+
+.ultra {
+  font-family: ultra;
+}
